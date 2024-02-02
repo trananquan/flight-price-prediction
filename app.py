@@ -319,7 +319,7 @@ def predict():
 
         output=round(prediction[0],2)
 
-        return render_template('home.html',prediction_text="Giá vé của bạn là Rs. {}".format(output))
+        return render_template('home.html',prediction_text="Giá vé của bạn là {} Rs".format(output), equal_text="Tương đương với {} VND".format(output*294))
 
 
     return render_template("home.html")
