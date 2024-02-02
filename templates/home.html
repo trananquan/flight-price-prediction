@@ -19,10 +19,10 @@
     </head>
 <body style= "background-image:url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2019%2F09%2F344740-boeing-747-airliner-aircraft-plane-airplane-boeing-747-transport-30.jpg&f=1&nofb=1')";>
     
-    <H1> FLIGHT PRICE PREDICTION</H1>
+    <H1> Phần mềm ML dự báo giá vé máy bay</H1>
     <hr>
     <form action="\predict" method="post">
-        <label for="Departure">Departure</label>
+        <label for="Departure">Ngày khởi hành</label>
 
         <div>
 
@@ -33,7 +33,7 @@
 
         <br>
 
-        <label for="Arrival">Arrival</label>
+        <label for="Arrival">Ngày đến</label>
 
         <div>
 
@@ -45,7 +45,7 @@
         <br>
         <div>
 
-            <label for="source">Source</label>
+            <label for="source">Nơi xuất phát</label>
             <select name="Source" id="Source" required="required">
                 <option value="Delhi">Delhi</option>
                 <option value="Kolkata">Kolkata</option>
@@ -58,7 +58,7 @@
         <br>
         <div>
 
-            <label for="Destination">Destination</label>
+            <label for="Destination">Điểm đến</label>
             <select name="Destination" id="Destination" required="required">
                 <option value="Cochin">Cochin</option>
                 <option value="Delhi">Delhi</option>
@@ -74,7 +74,7 @@
 
         <div>
 
-            <label for="Airline">Airline</label>
+            <label for="Airline">Hãng hàng không</label>
             <select name="airline" id="airline" required="required">
                 <option value="Jet Airways">Jet Airways</option>
                 <option value="IndiGo">IndiGo</option>
@@ -95,13 +95,11 @@
         <br>
 
         <div>
-            <label for="stopage">stopage</label>
+            <label for="stopage">Số chặng bay</label>
             <select name="stops" required="required">
                 <option value="0">Non-Stop</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
             </select>
 
         </div>
@@ -117,7 +115,7 @@
         <div>
             
             
-            <input type="submit" value="Submit" class="btn btn-secondary">
+            <input type="submit" value="Dự đoán" class="btn btn-secondary">
         </form>
 
         <br>
