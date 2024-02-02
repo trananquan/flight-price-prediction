@@ -1,0 +1,30 @@
+
+H1 {
+    color: rgb(255, 242, 242);
+}
+label {
+    color: rgb(253, 251, 250);
+    
+}
+h3 {
+     color: #e1f4f3;
+}
+body {
+    background-color: #e1f4f3;
+    text-align: center;
+    height: auto;
+    width: auto;
+    
+}
+
+.navbar {
+    background-color: #333333;
+}
+
+a {
+    color: #f1f9f9;
+}
+
+a:hover {
+    color: #f0f0f0;
+  }
