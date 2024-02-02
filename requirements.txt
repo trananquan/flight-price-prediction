@@ -15,4 +15,4 @@ scipy
 six
 threadpoolctl
 Werkzeug
-gunicorn==20.0.4
+gunicorn
